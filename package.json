@@ -1,0 +1,22 @@
+{
+  "name": "projects-api-node-mongodb",
+  "version": "1.0.0",
+  "description": "REST API for project management built with Node.js, Express and MongoDB",
+  "license": "MIT",
+  "author": "Gregorio Jose Mesa Fernandez",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
